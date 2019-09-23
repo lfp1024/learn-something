@@ -17,11 +17,17 @@
   },
   "homepage": "https://github.com/lfp1024/learn-something#readme",
   "dependencies": {
-    
+    "@types/mongodb": "^3.1.28",
+    "koa": "^2.8.1",
+    "koa-body": "^4.1.1",
+    "koa-router": "^7.4.0",
+    "mongodb": "^3.2.7"
   },
   "devDependencies": {
-    "@types/node":"10.x",
-    "ts-node":"^8.4.1",
-    "typescript":"3.x"
+    "@types/koa": "^2.0.49",
+    "@types/koa-router": "^7.0.42",
+    "@types/node": "10.x",
+    "ts-node": "^8.4.1",
+    "typescript": "3.x"
   }
 }
