@@ -18,6 +18,7 @@
   "homepage": "https://github.com/lfp1024/learn-something#readme",
   "dependencies": {
     "axios": "^0.20.0",
+    "dingtalk-robot-sender": "^1.2.0",
     "koa": "^2.8.1",
     "koa-body": "^4.1.1",
     "koa-router": "^7.4.0",
