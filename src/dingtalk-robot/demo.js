@@ -34,6 +34,11 @@ let at = {
         //     punish: 'deny',
         //     uuid: '24ce64f68ff5dc054dca012fc3931165'
         // }
+
+        // {
+        //     errcode: 130101,
+        //     errmsg: 'send too fast, exceed 20 times per minute'
+        // }
     })
 })();
 
