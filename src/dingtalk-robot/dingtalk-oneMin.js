@@ -16,10 +16,10 @@ const WHILE_LOOP_SLEEP = 500;
 
 const sleep = (time) => new Promise(res => setTimeout(res, time));
 
-const centerExceptionRobot = 'https://oapi.dingtalk.com/robot/send?access_token=afa5ee2f685b91daac90885e2376445fe01c8f67ad7cc6e1021e4b3f516395c5';
-const keyWords = '中控异常'
-const accountExceptionRobot = 'https://oapi.dingtalk.com/robot/send?access_token=60513e23eaf284b07118731d76c636e9cea21f3c1c656aded8b56b21518b4921';
-const keyWords2 = '分发异常'
+const centerExceptionRobot = 'https://oapi.dingtalk.com/robot/send?access_token=afa5ee1021e4b3f516395c5';
+const keyWords = '中常'
+const accountExceptionRobot = 'https://oapi.dingtalk.com/robot/send?access_token=60513ed8b56b21518b4921';
+const keyWords2 = '分常'
 
 class DingTalkRobot {
 

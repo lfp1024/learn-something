@@ -3,13 +3,13 @@
 const ChatBot = require('dingtalk-robot-sender');
 // 直接使用 webhook
 const robot = new ChatBot({
-    webhook: 'https://oapi.dingtalk.com/robot/send?access_token=60513e23eaf284b07118731d76c636e9cea21f3c1c656aded8b56b21518b4921'
+    webhook: 'https://oapi.dingtalk.com/robot/send?access_token=60513e23eaf284b06aded8b56b21518b4921'
 });
 
-let content = '分发异：abcd112';
+let content = '分异：abcd112';
 let at = {
     "atMobiles": [
-        "17603056467",
+        "177",
     ],
     "isAtAll": false
 };

@@ -3,10 +3,10 @@
 const ChatBot = require('dingtalk-robot-sender');
 
 const robot = new ChatBot({
-    webhook: 'https://oapi.dingtalk.com/robot/send?access_token=60513e23eaf284b07118731d76c636e9cea21f3c1c656aded8b56b21518b4921',
+    webhook: 'https://oapi.dingtalk.com/robot/send?access_token=60521518b4921',
 });
 const mobiles = {
-    lfp: '17603056467',
+    lfp: '177',
 };
 const MAX_SEND_NUM = 15;
 const ONE_MIN = 1000 * 60;
