@@ -27,6 +27,7 @@
     "mqtt": "^3.0.0",
     "mysql": "^2.17.1",
     "mysql2": "^2.2.1",
+    "node-dingtalk": "^2.1.0",
     "sequelize": "^6.3.5"
   },
   "devDependencies": {
