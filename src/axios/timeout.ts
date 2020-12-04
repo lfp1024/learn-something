@@ -1,7 +1,7 @@
 import Axios from 'axios'
 
 const axiosInstance = Axios.create({
-    timeout:1234
+    timeout: 3333
 })
 
 axiosInstance.interceptors.request.use(
@@ -11,13 +11,19 @@ axiosInstance.interceptors.request.use(
     }
 )
 
-async function testTimeout() {
+async function testTimeoutPost() {
     const start = Date.now();
     await axiosInstance.post('http://www.google.com', {}, {
         // timeout: 3000,
         validateStatus: () => true
-    }).catch(e => { })
+    }).catch(e => { console.log('e = ', e.stack); })
     console.log('===', Date.now() - start)
 }
 
-testTimeout()
+async function testTimeoutGet() {
+    const start = Date.now();
+    await axiosInstance.get('http://localhost:2999/test/').catch(e => { console.log('e = ', e.stack); })
+    console.log('===', Date.now() - start)
+}
+
+testTimeoutGet()
