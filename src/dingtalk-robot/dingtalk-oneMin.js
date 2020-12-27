@@ -63,7 +63,7 @@ class DingTalkRobot {
             if (this.#msgTimeStampList.length === MAX_TIMES_PER_MIN && timeDiff < LT_ONE_MIN) { // 第21条发送时间在1分以内
                 await sleep(GT_ONE_MIN - timeDiff);
             }
-            this.addMsgTimeStamp(timeDiff);
+            this.addMsgTimeStamp(Date.now());
             const data = this.priorityQueue.leave();
             const res = await this.robot.text(data.content, data.at);
             if (res.data.errcode && res.data.errcode !== 0) {
