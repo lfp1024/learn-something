@@ -1,4 +1,6 @@
+'use strict';
 
+const client = require('./client');
 
 (async () => {
     const res = await client.hget('lfo', 'age');
