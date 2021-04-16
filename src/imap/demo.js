@@ -5,7 +5,7 @@ const cheerio = require('cheerio');
 
 var imap = new Imap({
     user: 'moonchole@outlook.com', //你的邮箱账号
-    password: 'sun45689', //你的邮箱密码
+    password: 'sun456x', //你的邮箱密码
     host: 'outlook.office365.com', //邮箱服务器的主机地址
     port: 993, //邮箱服务器的端口地址
     tls: true, //使用安全传输协议
