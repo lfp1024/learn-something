@@ -20,6 +20,7 @@
     "axios": "^0.20.0",
     "bcrypt": "^5.0.0",
     "cheerio": "^1.0.0-rc.3",
+    "dayjs": "^1.10.4",
     "dingtalk-robot-sender": "^1.2.0",
     "iconv-lite": "^0.6.2",
     "imap": "^0.8.19",
