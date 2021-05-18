@@ -19,6 +19,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "bcrypt": "^5.0.0",
+    "benchmark": "^2.1.4",
     "cheerio": "^1.0.0-rc.3",
     "dayjs": "^1.10.4",
     "dingtalk-robot-sender": "^1.2.0",
